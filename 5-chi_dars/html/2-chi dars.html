@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Урок Основы HTML</title>
+    <style>
+      body {
+        font-family: sans-serif;
+        margin: 40px;
+      }
+      h1,
+      h2 {
+        color: #2c3e50;
+      }
+      code {
+        background: #ecf0f1;
+        padding: 2px 5px;
+        border-radius: 4px;
+        display: block;
+        margin: 8px 0;
+      }
+      .box {
+        border-left: 4px solid #2980b9;
+        padding-left: 10px;
+        margin-bottom: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>📘 Урок по Основным Тегам HTML</h1>
+
+    <div id="birinchiBox" class="box">
+      <h2>1. Заголовки: <code>&lt;h1&gt; - &lt;h6&gt;</code></h2>
+      <p>Заголовки придают тексту структурированный вид:</p>
+      <code>
+        &lt;h1&gt;Это заголовок H1&lt;/h1&gt; <br />
+        &lt;h3&gt;Это заголовок H3&lt;/h3&gt;
+      </code>
+    </div>
+
+    <div class="box">
+      <h2>2. Параграф: <code>&lt;p&gt;</code></h2>
+      <p>Используется для написания текстового блока:</p>
+      <code>&lt;p&gt;Это пример параграфа&lt;/p&gt;</code>
+    </div>
+
+    <div class="box">
+      <h2>3. Ссылка: <code>&lt;a&gt;</code></h2>
+      <p>Используется для перехода на другую страницу или сайт:</p>
+      <code>&lt;a href="https://google.com"&gt;Google&lt;/a&gt;</code>
+    </div>
+
+    <div class="box">
+      <h2>4. Изображение: <code>&lt;img&gt;</code></h2>
+      <p>Для вывода изображения:</p>
+      <code
+        >&lt;img src="image.jpg" alt="Описание изображения" width="200"
+        /&gt;</code
+      >
+    </div>
+
+    <div class="box">
+      <h2>5. Списки: <code>&lt;ul&gt;</code> и <code>&lt;ol&gt;</code></h2>
+      <p>Упорядоченные и неупорядоченные списки:</p>
+      <code>
+        &lt;ul&gt;<br />
+        &nbsp;&nbsp;&lt;li&gt;Яблоко&lt;/li&gt;<br />
+        &nbsp;&nbsp;&lt;li&gt;Банан&lt;/li&gt;<br />
+        &lt;/ul&gt;
+      </code>
+      <code>
+        &lt;ol&gt;<br />
+        &nbsp;&nbsp;&lt;li&gt;Первый&lt;/li&gt;<br />
+        &nbsp;&nbsp;&lt;li&gt;Второй&lt;/li&gt;<br />
+        &lt;/ol&gt;
+      </code>
+    </div>
+
+    <div class="box">
+      <h2>7. Таблица: <code>&lt;table&gt;</code></h2>
+      <p>Выводит данные в табличном виде:</p>
+      <code>
+        &lt;table border="1"&gt;<br />
+        &nbsp;&nbsp;&lt;tr&gt;&lt;th&gt;Имя&lt;/th&gt;&lt;th&gt;Возраст&lt;/th&gt;&lt;/tr&gt;<br />
+        &nbsp;&nbsp;&lt;tr&gt;&lt;td&gt;Али&lt;/td&gt;&lt;td&gt;25&lt;/td&gt;&lt;/tr&gt;<br />
+        &lt;/table&gt;
+      </code>
+    </div>
+
+    <hr />
+
+    <h2>🧪 Практика</h2>
+    <p>Выполните следующие задания:</p>
+    <ul>
+      <li>
+        <strong>1.</strong> Напишите главный заголовок и текст с использованием
+        тегов <code>&lt;h1&gt;</code> и <code>&lt;p&gt;</code>.
+      </li>
+      <li>
+        <strong>2.</strong> Добавьте ссылку на страницу "YouTube" с помощью тега
+        <code>&lt;a&gt;</code>.
+      </li>
+      <li>
+        <strong>3.</strong> Вставьте изображение с помощью тега
+        <code>&lt;img&gt;</code> (локальное или онлайн).
+      </li>
+      <li>
+        <strong>4.</strong> Создайте список фруктов с помощью тега
+        <code>&lt;ul&gt;</code>.
+      </li>
+    </ul>
+
+    <h2>🏠 Домашнее задание</h2>
+    <ol>
+      <li>
+        Создайте личную страницу представления (имя, возраст, хобби, фото).
+      </li>
+      <li>Добавьте 3 ссылки (например: Google, Wikipedia, YouTube).</li>
+      <li>
+        Создайте 2 типа списков: один упорядоченный, другой неупорядоченный.
+      </li>
+      <li>Добавьте в таблицу имена и возраст 3-х своих друзей.</li>
+    </ol>
+
+    <table border="1" width="100%">
+      <tr>
+        <th>Имя</th>
+        <th>Возраст</th>
+      </tr>
+      <tr>
+        <td>Али</td>
+        <td>25</td>
+      </tr>
+    </table>
+
+    <a href="#birinchiBox">Вернуться к первому блоку</a><br />
+
+    <a href="https://www.google.com" target="_blank">Перейти на Google</a><br />
+
+    <a href="https://www.youtube.com">Перейти на YouTube</a><br />
+
+    <a href="/head.html">О нас</a><br />
+
+    <a href="/file.mp4" download>Скачать видео</a><br />
+
+    <a href="tel:+998901234567">+998 90 123 45 67</a><br />
+
+    <a href="mailto:support@example.com">Написать в поддержку</a><br />
+
+    <a href="tel:+998901112233">Позвонить нам</a><br />
+
+    <a title="Позвонить нам" href="tel:+998901112233">Позвонить нам</a>
+  </body>
+</html>
