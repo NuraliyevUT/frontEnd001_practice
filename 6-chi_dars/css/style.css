@@ -1,0 +1,34 @@
+/* 1. Google Fonts dan ulangan Roboto va Pacifico ishlatilmoqda */
+.roboto {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+}
+
+.pacifico {
+  font-family: "Pacifico", cursive;
+  font-size: 22px;
+}
+
+/* 2. Lokal fontni @font-face orqali ulash */
+@font-face {
+  font-family: "MyLocalFont";
+  src: url("../fonts/Roboto-VariableFont_wdth\,wght.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.local-font {
+  font-family: "MyLocalFont", sans-serif;
+  font-size: 20px;
+  font-style: italic;
+  font-weight: bold;
+}
+
+/* 3. Zaxira fontlar bilan font-family */
+.fallback-font {
+  font-family: "NonExistentFont", Georgia, serif;
+  font-size: 20px;
+  font-style: italic;
+  font-weight: bold;
+}
