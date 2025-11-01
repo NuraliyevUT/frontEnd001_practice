@@ -1,0 +1,29 @@
+// @mixin Btn($bg-color, $color) {
+//   width: 100px;
+//   background: $bg-color;
+//   font-size: 20px;
+//   color: $color;
+//   &:hover {
+//     background: rgb(225, 225, 66);
+//   }
+// }
+
+%Btn {
+  width: 100px;
+  background: darkcyan;
+  font-size: 20px;
+  color: white;
+  &:hover {
+    background: rgb(225, 225, 66);
+  }
+}
+
+.btn {
+  @extend %Btn;
+}
+
+.click {
+  @extend %Btn;
+  border-radius: 10px;
+  border: none;
+}

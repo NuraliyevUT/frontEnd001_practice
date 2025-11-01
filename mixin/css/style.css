@@ -1,0 +1,14 @@
+.click, .btn {
+  width: 100px;
+  background: darkcyan;
+  font-size: 20px;
+  color: white;
+}
+.click:hover, .btn:hover {
+  background: rgb(225, 225, 66);
+}
+
+.click {
+  border-radius: 10px;
+  border: none;
+}/*# sourceMappingURL=style.css.map */
